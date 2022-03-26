@@ -9,8 +9,14 @@ public class Medidas {
 
     // 3.2 - Métodos e funções
     public static void main(String[] args) {
-        System.out.println("Bom dia!!!");
-        System.out.println("Calculo de area");
+
+    calcularAreaModoCurto();
+    calcularAreamodoExtenso();
+
+    }
+
+    public static void calcularAreaModoCurto(){
+        System.out.println("Calculo de area Modo Curto");
 
         //Calculo de área - Reduzido
         int largura = 4;
@@ -18,12 +24,12 @@ public class Medidas {
 
         System.out.println("Para a largura de " + largura + "m e o comprimento de "
                 + comprimento + "m a área é de " + largura * comprimento + "m²");
-
-
-
     }
 
-    public void calcularAreamodoExtenso (){
+    public static void calcularAreamodoExtenso (){
+
+        System.out.println("Calculo de area Modo Extenso");
+
         // Calculo de area - Exemplo: o tamanho do tapete ou do piso
         int largura;
         int comprimento;
