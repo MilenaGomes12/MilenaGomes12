@@ -16,7 +16,7 @@ public class Medidas {
     }
 
     public static void calcularAreaModoCurto(){
-        System.out.println("Calculo de area Modo Curto");
+        System.out.println("Calculo de area Modo Curto!!");
 
         //Calculo de área - Reduzido
         int largura = 4;
